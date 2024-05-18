@@ -35,7 +35,7 @@ const App = () => {
       <ul className="task-list">
         {tasks.map((task, index) => (
           <li key={index} className="task-item">
-            <h1>change</h1>
+            <h1>Another change</h1>
             {task}
             <button className="delete-button" onClick={() => deleteTask(index)}>Delete</button>
           </li>
